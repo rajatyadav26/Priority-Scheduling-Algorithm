@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int main()
 {
@@ -6,8 +5,8 @@ int main()
 	printf("Enter no of students : ");
 	scanf("%d",&n);
 	printf("\n");
-	int waiting_time[n],priority[n],process[n],burst_time[n], i, j,k ,temp ,sum=0;
-	float avg_waiting_time ;
+	int waiting_time[n],priority[n],process[n],burst_time[n], i, j,k ,temp;
+	float avg_waiting_time ,sum=0;
 	
 	printf("Enter priority as equal to no of gifts. \n");
 	for(i=0;i<n;i++)
